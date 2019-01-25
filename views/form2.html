@@ -9,7 +9,7 @@
     <select name="color">
         <option>--Select a color--</option>
         <repeat group="{{ @colors }}" value="{{ @colorOption }}">
-            <option>{{ @colorOption }}</option>
+            <option value="{{ @colorOption }}">{{ @colorOption }}</option>
         </repeat>
     </select>
     <button type="submit">Submit</button>
